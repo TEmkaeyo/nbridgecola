@@ -1,1 +1,92 @@
+<!DOCTYPE html>
+<html lang="mn"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ундааг онгойлгоход яагаад хөөсөрдөг вэ?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;500;700;900&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+<style>
+:root{--red:#F40009;--deep:#C40007;--ink:#1a0a0b;--paper:#fff;--cream:#FFF4F2;--card:#fff;--mut:#6b4a4c;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#140506;--cream:#1d0a0b;--card:#260d0f;--ink:#fff1ef;--mut:#d9aaa8}}
+:root[data-theme="dark"]{--paper:#140506;--cream:#1d0a0b;--card:#260d0f;--ink:#fff1ef;--mut:#d9aaa8}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 Roboto,"Segoe UI",Arial,sans-serif}
+.script{font-family:Lobster,"Brush Script MT",cursive;font-weight:400}
+.hero{background:var(--red);color:#fff;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;left:-5%;right:-5%;bottom:-1px;height:70px;background:var(--paper);border-radius:50% 50% 0 0/100% 100% 0 0}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+.hero .wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center;padding-top:56px;padding-bottom:110px}
+h1{font-size:clamp(40px,6.4vw,76px);line-height:1.08;margin:0 0 18px;text-wrap:balance}
+.lead{font-size:19px;max-width:46ch;opacity:.95;margin:0 0 24px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{border:1.5px solid rgba(255,255,255,.7);border-radius:99px;padding:4px 14px;font-size:14px}
+.phone{justify-self:center;width:min(300px,100%);aspect-ratio:9/16;border-radius:34px;background:#000;padding:8px;box-shadow:0 0 0 4px #fff,0 24px 50px rgba(80,0,0,.45);transform:rotate(2.5deg)}
+.phone video{width:100%;height:100%;border-radius:26px;display:block;object-fit:cover;background:#000}
+section{padding:44px 0}
+.step{display:grid;grid-template-columns:90px 1fr;gap:20px;max-width:880px;margin:0 auto}
+.n{font-size:64px;line-height:1;color:var(--red)}
+h2{font-size:30px;margin:4px 0 10px;line-height:1.2}
+p{margin:0 0 14px;max-width:68ch}
+.row{display:flex;flex-wrap:wrap;gap:14px;margin:18px 0}
+.box{flex:1 1 220px;background:var(--cream);border-left:6px solid var(--red);border-radius:10px;padding:16px 18px}
+.box small{display:block;color:var(--mut);font-size:14px}
+.box b{display:block;font-size:30px;font-weight:900;color:var(--red);line-height:1.2}
+.eq{background:var(--red);color:#fff;border-radius:14px;padding:18px 22px;font-size:clamp(20px,3.4vw,28px);font-weight:700;text-align:center;margin:18px 0}
+.eq small{display:block;font-size:15px;font-weight:400;opacity:.9;margin-top:6px}
+.bars{background:var(--cream);border-radius:14px;padding:18px 20px;margin:18px 0}
+.bar{display:grid;grid-template-columns:64px 1fr 56px;gap:12px;align-items:center;margin:10px 0}
+.bar i{display:block;height:26px;border-radius:0 13px 13px 0;background:var(--red)}
+.bar:nth-child(3) i{background:#e8575c}.bar:nth-child(4) i{background:#f1a0a3}
+.bar span{color:var(--mut)}
+.band{background:var(--red);color:#fff;text-align:center;padding:48px 24px}
+.band p{margin:0 auto;font-size:22px;font-weight:500;max-width:34ch}
+.band .script{font-size:34px;display:block;margin-bottom:8px}
+footer{text-align:center;color:var(--mut);padding:26px 24px 34px;font-size:14px}
+@media(max-width:760px){.hero .wrap{grid-template-columns:1fr;padding-top:36px}.phone{transform:none;width:min(260px,70%)}.step{grid-template-columns:1fr;gap:0}.n{font-size:48px}}
+@media(prefers-reduced-motion:no-preference){.phone{animation:in .9s ease-out both}@keyframes in{from{opacity:0;transform:translateY(30px) rotate(6deg)}}}
+:focus-visible{outline:3px solid #fff;outline-offset:3px}
+</style></head><body>
+<header class="hero"><div class="wrap">
+<div><h1 class="script">Ундааг онгойлгоход яагаад хөөсөрдөг вэ?</h1>
+<p class="lead">Битүү саванд 3–4 атм даралтаар уусчихсан CO₂ онгойлгосон мөчид гаргахгүй байж чадахгүй. Видео үзээд, цаана нь байгаа химийг уншаарай.</p>
+<div class="chips"><span>Генрийн хууль</span><span>Хэт ханалт</span><span>Ерөнхий хими</span></div></div>
+<div class="phone"><video controls playsinline preload="metadata" src="video.mp4"></video></div>
+</div></header>
 
+<section><div class="wrap">
+<div class="step"><div class="n script">01</div><div>
+<h2>Ажиглалт</h2>
+<p>Битүү саванд CO₂ 3–4 атм даралтаар шингэнд уусчихсан байдаг. Онгойлгоход CO₂-ийн даралт 10 мянга дахин буурна.</p>
+<div class="row"><div class="box"><small>Битүү сав</small><b>p(CO₂) ≈ 3–4 атм</b></div><div class="box"><small>Задалсны дараа</small><b>p(CO₂) ≈ 4×10⁻⁴ атм</b></div></div>
+<p>Уусмал хэт ханасан төлөвт шилжиж, илүүдэл CO₂ бөмбөлөг болж ялгарна.</p></div></div>
+</div></section>
+
+<section style="background:var(--cream)"><div class="wrap">
+<div class="step"><div class="n script">02</div><div>
+<h2>Динамик тэнцвэр → Генрийн хууль</h2>
+<p>Даралт их байх тусам хий их уусна. Тэнцвэрт уусах хурд ялгарах хурдтай тэнцүү байна.</p>
+<div class="eq">CO₂(г) ⇌ CO₂(aq)<small>k₁·p = k₋₁·[CO₂(aq)]</small></div>
+<div class="eq" style="background:var(--deep)">C = k_H · p<small>k_H(CO₂, 25 °C) ≈ 3.4×10⁻² моль·л⁻¹·атм⁻¹</small></div>
+<p>3.5 атм-д литр тутамд ойролцоогоор 5 грамм CO₂ уусна (C ≈ 0.12 M ≈ 5.2 г/л).</p></div></div>
+</div></section>
+
+<section><div class="wrap">
+<div class="step"><div class="n script">03</div><div>
+<h2>Хэт ханалт ба бөмбөлөг үүсэх</h2>
+<p>Илүүдэл хий шилний сэв, тоосон дээр бөмбөлөг болж ялгарна.</p>
+<div class="row"><div class="box"><small>Хэт ханалтын зэрэг</small><b>S = C / C_тэнцв ≈ 8×10³</b></div><div class="box"><small>Критик радиус</small><b>r* ≈ 0.6 мкм</b></div></div>
+<p>Лапласын тэгшитгэл: p_дотор = p₀ + 2γ/r. Бөмбөлөг шилний ан цав, тоосонд хоргодсон хийн хөндийгөөс үүснэ. Үүнийг гетероген нуклеаци гэнэ.</p></div></div>
+</div></section>
+
+<section style="background:var(--cream)"><div class="wrap">
+<div class="step"><div class="n script">04</div><div>
+<h2>Температурын нөлөө</h2>
+<p>Хийн уусалт экзотерм (ΔH ≈ −20 кЖ·моль⁻¹) учраас температур өсөхөд k_H буурна.</p>
+<div class="bars" role="img" aria-label="k_H: 4 °C 0.063, 25 °C 0.034, 40 °C 0.023">
+<div class="bar"><b>4 °C</b><i style="width:100%"></i><span>0.063</span></div>
+<div class="bar"><b>25 °C</b><i style="width:54%"></i><span>0.034</span></div>
+<div class="bar"><b>40 °C</b><i style="width:36.5%"></i><span>0.023</span></div></div>
+<p>Ижил даралтад 4 °C-т 25 °C-тайгаас ≈ 1.8 дахин их CO₂ уусна. Тиймээс хүйтэн ундаа удаан хийгээ хадгална.</p></div></div>
+</div></section>
+
+<div class="band"><span class="script">Дүгнэлт</span><p>Тогтмол температурт хийн уусах чанар парциал даралттай шууд пропорционал.</p></div>
+<footer>Ерөнхий хими · Хийн уусах чанар · @TGlab<br>#хими #Генрийнхууль #ерөнхийхими #шинжлэхухаан #сургалт</footer>
+</body></html>
